@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="./css/style.css" />
+</head>
+<body>
+    <div id="loader" class="loader-background">
+        <div class="spinner"></div>
+        <p>loading...</p>
+    </div>
+    <header id="home">
+        <nav>
+            <h2 class="logo"><img src="./assets/png/me.png" alt="Juan Garcia" class="logo-image">Juan Garcia</h2>
+            <div class="navbar-list">
+                <a href="#home">Home</a>
+                <a href="#blog">Blog</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="intro-section">
+            <div class="intro">
+                <h1>A Frontend web developer based in Tennessee</h1>
+                <div class="intro-info">
+                    <p>I'm a highly motivated developer and student from Tennesse. I adore building accessible, responsive and performant code. Furthermore,
+                        I'm also a huge fan of open-source.
+                        <br>
+                        <br>
+                        I have been building web apps for almost 4 years and still love it. Learning something new every week. The main purpose of site is to showcase the skills learned over the 4 years.
+                    </p>
+                    <div class="intro-options">
+                        <a href="#about-me" class="intro-link">About Me</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="dark-section" id="about-me">
+            <div class="about-container">
+                <h1 class="section-title" style="margin-bottom: 0;">Who am i?</h1>
+                <div class="para-container">
+                    <p>Hey there! Let's get straight to it! I'm Juan, a motivated frontend developer.
+                        I started back when I was a 16-year-old kid that had an extreme passion for creating stuff,
+                        building simple static web pages and expanding my CSS knowledge by recreating awesome designs. I've 
+                        continued to gro and evolve as a developer, taking on new challenges and learning the latest technologies along the way.
+                    </p>
+                    <p>Now, at the age of 20, four years after starting my web development journey, I'm building cutting-edge web applications using
+                        the latest technologies such as React.js, Next.js, Typescript and much more.
+                    </p>
+                    <p>
+                        When I'm not in full-on developer mode, you will find me blasting down a race track. There's nothing quite like the rush of adrenaline that
+                        comes from going ultra-fast, and for me, there's no better way to experience that than in my Nissan 370z. 
+                    </p>
+                    <p>Press button below to go to my social links! I love to chat and meet new people!</p>
+                    <div class="intro-options">
+                        <a href="#social-links" class="intro-link">Go to social links!</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="blog-section" id="blog">
+            <h1 class="section-title">Blog Posts</h1>
+            <div class="blog-item">
+                <h3 class="blog-title">My Journey to Become a Developer</h3>
+                <p class="blog-short-desc">
+                    First, let me introduce myself. My name is Juan Garcia, I'm a self-taught full-stack developer with 1 year experience. 
+                    In that time, I've worked as a front-end developer for a startup called Zyndicate.
+                    <br><br>
+                    This may not sound like a lot of experience, but finishing my first year as a developer has been a huge milestone for me. 
+                    This is because I had no real experience doing web development - and not much programming experience in general beyond some basic html and css training I got from a few online courses. 
+                    I also didn't have a computer science degree since I couldn't afford college.    
+                    <br><br>
+                    I started working with Amazon without knowing if I would ever get to work as a software engineer. 
+                    I always felt like I didn't know enough coding to where I could even get a job. Eventually, I heard about Amazon Career Choice. Upon doing research, I found this could be another opportunity to advance in life and get a better chance at securing a job.
+                </p>
+                <span class="blog-timestamp">Posted on: July 31, 2023</span>
+            </div>
+        </section>
+        <section class="dark-section">
+            <div class="about-container">
+                <h1 class="section-title">Page Layout</h1>
+                <p class="para-container">
+                    This website is built to be easy to eye with easy colors. The nav bar will provide a faster way
+                    to look through sections. Every section is identified by the change of background color while scrolling.
+                    <br><br>
+                    At the very bottom of the page, you will find a contact form to submit your message so I can get back to you 
+                    when possible. In the footer, you will see my social links to have a higher change of reaching me a lot faster than submitting
+                    contact message.
+                </p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="contact" id="contact">
+            <h1 style="margin-top: 3rem;">Contact</h1>
+            <div class="contact-form">
+                <label for="fName">First Name</label>
+                <div class="contact-input">
+                    <input type="text" id="fName" name="contact">
+                </div>
+
+                <label for="lName">Last Name</label>
+                <div class="contact-input">
+                    <input type="text" id="lName" name="contact">
+                </div>
+
+
+                <label for="email">Email</label>
+                <div class="contact-input">
+                    <input type="email" id="email" name="email" />
+                </div>
+
+                <label for="message">Message</label>
+                <div class="contact-input">
+                    <textarea name="message" id="message" rows="4"></textarea>
+                </div>
+            </div>
+            <input type="submit" value="Submit" class="contact-send" />
+        </div>
+        <div class="copyright">
+            <div class="copyright-container">
+                <div class="foot-socials" id="social-links">
+                    <a href="https://github.com/fangskillz" target="_blank">
+                        <img src="./assets/svg/github.svg" type="image/x-icon" alt="Github" title="Github"/>
+                    </a>
+                    <a href="mailto:me@juan.engineer" target="_blank">
+                        <img src="./assets/svg/user.svg" type="image/x-icon" alt="Email" title=""Email/>
+                    </a>
+                    <a href="https://www.linkedin.com/in/juan-garcia-029161198/" target="_blank">
+                        <img src="./assets/svg/linkedin.svg" type="image/x-icon" alt="LinkedIn" title="LinkedIn"> 
+                    </a>   
+                </div>
+                <p>Created By Juan Garcia with ❤️ <br>&copy; 2023 Juan Garcia. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="./js/main.js"></script>
+</body>
+</html>
