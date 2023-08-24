@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/project1.css" />
+</head>
+<body>
+    <header>
+      <div class="nav">
+        <h2 class="logo">Juan Garcia</h2>
+        <div class="navbar-list">
+            <a href="./index.html">Home</a>
+            <a href="#bio">Blog</a>
+            <a href="#contact">Contact</a>
+        </div>
+      </div>
+    </header>
+    <div class="main section-con">
+        <img class="me" src="./assets/png/me.png" />
+        <h1 class="welcome-text">Juan Garcia</h1>
+        <div class="socials">
+            <a href="https://github.com/fangskillz" target="_blank">
+                <img src="./assets/svg/github.svg" type="image/x-icon" alt="Github" title="Github"/>
+            </a>
+            <a href="mailto:me@juan.engineer" target="_blank">
+                <img src="./assets/svg/user.svg" type="image/x-icon" alt="Email" title=""Email/>
+            </a>
+            <a href="https://www.linkedin.com/in/juan-garcia-029161198/">
+                <img src="./assets/svg/linkedin.svg" type="image/x-icon" alt="LinkedIn" title="LinkedIn"> 
+            </a>
+        </div>
+        <div class="scroll-down-text">Scroll Down ⬇️</div>
+    </div>
+    <!-- extra information section -->
+    <div class="more-info section-con">
+        <div  id="bio" class="bio">
+            <h1 style="text-align: center;">About Juan</h1>
+            <p style="text-align: center; font-size: 18px; font-weight: 600;">Hi there! I'm Juan and I'm 20 years old, currently residing in Nashville, Tennessee. I'm a self-taught Software Engineer, 
+                but I break into many different fields and I'm fairly knowledgeable in most things surrounding networking and software.
+                Making tools and services that meakes lives easier or better in some way is what I love to do.
+            </p>
+        </div>
+        <div class="grid-container">
+            <div class="container">
+                <h3>Interesting Experiences</h3>
+                <ul class="list">
+                    <li>Setup personal server</li>
+                    <li>Work for startup company</li>
+                    <li>MLS (Major League Soccer) players to sign jersey</li>
+                    <li>Won Best Import Car at Car Event</li>
+                </ul>
+            </div>
+            <div class="container">
+                <h3>Hobbies</h3>
+                <ul class="list">
+                    <li>Computer Programming</li>
+                    <li>Photography</li>
+                    <li>Improve/Fix Cars</li>
+                    <li>Reading</li>
+                    <li>Gaming</li>
+                </ul>
+            </div>
+            <div class="container">
+                <h3>Goals</h3>
+                <ul class="list">
+                    <li>Gain Core Skills</li>
+                    <li>Grow Network</li>
+                    <li>Increase Salary</li>
+                    <li>Work at Dream Job</li>
+                    <li>Get Intership</li>
+                </ul>
+            </div>
+            <div class="container">
+                <h3>Things I Enjoy</h3>
+                <ul class="list">
+                    <li>Writing Code</li>
+                    <li>Tinkering with Personal Server</li>
+                    <li>Reading</li>
+                    <li>Hiking</li>
+                    <li>Going to the Beach</li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+    <!-- work history section -->
+    <div class="work-history section-con">
+        <div class="bio">
+            <h1 style="text-align: center;">Work Experience/Personal Achievements</h1>
+        </div>
+        <div class="grid-container work-grid-container">
+            <div class="container work-container">
+                <h3>Amazon Fullfillment - <a href="https://amazon.com" target="_blank" class="work-link">amazon.com</a></h3>
+                <p>Picker/AFM/Packer - July 2021 - Present</p>
+                <div>
+                    <ul class="list">
+                        <li>Pick customer orders to be sent to packing stage.</li>
+                        <li>Resolve floor issues by restarting robot drives and assist associates at stations with amnesty processing and prevention.</li>
+                        <li>Train new hires to meet work standards effectively.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="container work-container">
+                <h3>Zyndicate HQ - <a href="https://zyndicate.app/" target="_blank" class="work-link">zyndicate.app</a></h3>
+                <p>Frontend Software Engineer - Sep 2020 - Jan 2022</p>
+                <div>
+                    <ul class="list">
+                        <li>Developed collection of modular UI components for easy reuse.</li>
+                        <li>Used Apollo Client for GraphQL integration, which resulted in a 50% reduction in API response time.</li>
+                        <li>Ensured a seamless and smooth frontend UI experience.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="container work-container achieve">
+                <h3>Achievements</h3>
+                <ul class="list">
+                    <li>Set highest units picked at current Amazon FC with 192% productivity.</li>
+                    <li>Type 103 WPM (words per minute)</li>
+                    <li>Help bring floor productivity rate to standards while in temporary leadership position by engaging with associates.</li>
+                </ul>
+            </div>
+       </div>
+    </div>
+    <!-- footer section -->
+    <footer>
+        <div class="contact" id="contact">
+            <h1 style="margin-top: 3rem;">Contact</h1>
+            <div class="contact-form">
+                <label for="fName">First Name</label>
+                <div class="contact-input">
+                    <input type="text" id="fName" name="contact">
+                </div>
+
+                <label for="lName">Last Name</label>
+                <div class="contact-input">
+                    <input type="text" id="lName" name="contact">
+                </div>
+
+
+                <label for="email">Email</label>
+                <div class="contact-input">
+                    <input type="email" id="email" name="email" />
+                </div>
+
+                <label for="message">Message</label>
+                <div class="contact-input">
+                    <textarea name="message" id="message" rows="4"></textarea>
+                </div>
+            </div>
+            <input type="submit" value="Submit" class="contact-send" />
+        </div>
+        <div class="copyright">
+            <div class="foot-socials">
+                <a href="https://github.com/fangskillz" target="_blank">
+                    <img src="./assets/svg/github.svg" type="image/x-icon" alt="Github" title="Github"/>
+                </a>
+                <a href="mailto:me@juan.engineer" target="_blank">
+                    <img src="./assets/svg/user.svg" type="image/x-icon" alt="Email" title=""Email/>
+                </a>
+                <a href="https://www.linkedin.com/in/juan-garcia-029161198/">
+                    <img src="./assets/svg/linkedin.svg" type="image/x-icon" alt="LinkedIn" title="LinkedIn"> 
+                </a>   
+            </div>
+            <p>Created By Juan with ❤️ <br> &copy; 2023 Juan Garcia. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
