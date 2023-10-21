@@ -17,23 +17,20 @@
             <div class="navbar-list">
                 <a href="#home">Home</a>
                 <a href="#blog">Blog</a>
-                <a href="./contact-us.html">Contact Us</a>
-                <a href="./about.html">About Us</a>
-                <a href="./products.html">Products</a>
-                <a href="./project1.html">Project 1</a>
+                <a href="#contact">Contact</a>
             </div>
         </nav>
     </header>
     <main>
-        <section class="intro-section">
+        <section id="firstSection" class="intro-section">
             <div class="intro">
                 <h1>A Frontend web developer based in Tennessee</h1>
                 <div class="intro-info">
-                    <p><b>I'm a highly motivated developer and student from Tennesse. I adore building accessible, responsive and performant code. Furthermore,
-                        I'm also a huge fan of open-source.</b>
+                    <p>I'm a highly motivated developer and student from Tennesse. I adore building accessible, responsive and performant code. Furthermore,
+                        I'm also a huge fan of open-source.
                         <br>
                         <br>
-                        <p style="color: green">I have been building web apps for almost 4 years and still love it. Learning something new every week. The main purpose of site is to showcase the skills learned over the 4 years.</p>
+                        I have been building web apps for almost 4 years and still love it. Learning something new every week. The main purpose of site is to showcase the skills learned over the 4 years.
                     </p>
                     <div class="intro-options">
                         <a href="#about-me" class="intro-link">About Me</a>
@@ -64,7 +61,31 @@
                 </div>
             </div>
         </section>
-        <section class="blog-section" id="blog">
+        <section class="project-section">
+            <h1 class="section-title">Projects</h1>
+            <div class="project-list">
+                <div class="card-container">
+                    <img src="https://play-lh.googleusercontent.com/PCpXdqvUWfCW1mXhH1Y_98yBpgsWxuTSTofy3NGMo9yBTATDyzVkqU580bfSln50bFU" class="card-image" />
+                    <h2 class="card-title">Personal Website</h2>
+                    <span class="card-description">This is my very own custom made personal website that has all of my socials and projects.</span>
+                    <a href="https://github.com/fangskillz/juan.engineer">View on GitHub</a>
+                </div>
+                <div class="card-container">
+                    <img src="https://camo.githubusercontent.com/d33473b5fab520b8d040c7845d20b345b3c28243cf377453ae0a40094406681f/68747470733a2f2f692e696d6775722e636f6d2f4f4e49785548682e6a706567" class="card-image" />
+                    <h2 class="card-title">Quiz App</h2>
+                    <span class="card-description">Multi choice answer quiz app that helps see how well you will do in upcoming test.</span>
+                    <a href="https://github.com/fangskillz/quiz-app">View on GitHub</a>
+                </div>
+                <div class="card-container">
+                    <img src="https://play-lh.googleusercontent.com/PCpXdqvUWfCW1mXhH1Y_98yBpgsWxuTSTofy3NGMo9yBTATDyzVkqU580bfSln50bFU" class="card-image" />
+                    <h2 class="card-title">EveryPenny</h2>
+                    <span class="card-description">Budget app that connect with your financial accounts, track spending and categorize expenses so you can see where your money is going.</span>
+                    <a href="https://github.com/fangskillz/EveryPenny">View on GitHub</a>
+                </div>
+            </div>
+            
+        </section>
+        <section class="dark-section blog-section" id="blog">
             <h1 class="section-title">Blog Posts</h1>
             <div class="blog-item">
                 <h3 class="blog-title">My Journey to Become a Developer</h3>
@@ -82,7 +103,7 @@
                 <span class="blog-timestamp">Posted on: July 31, 2023</span>
             </div>
         </section>
-        <section class="dark-section">
+        <section>
             <div class="about-container">
                 <h1 class="section-title">Page Layout</h1>
                 <p class="para-container">
@@ -99,29 +120,30 @@
     <footer>
         <div class="contact" id="contact">
             <h1 style="margin-top: 3rem;">Contact</h1>
+            <span id="form-success" style="color: green;">Success: Form has been submitted</span>
             <div class="contact-form">
                 <label for="fName">First Name</label>
-                <div class="contact-input">
-                    <input type="text" id="fName" name="contact">
+                <div id="fName-con" class="contact-input">
+                    <input type="text" id="fName" class="form-input" name="contact">
                 </div>
 
                 <label for="lName">Last Name</label>
-                <div class="contact-input">
-                    <input type="text" id="lName" name="contact">
+                <div id="lName-con" class="contact-input">
+                    <input type="text" id="lName" class="form-input" name="contact">
                 </div>
 
 
                 <label for="email">Email</label>
-                <div class="contact-input">
-                    <input type="email" id="email" name="email" />
+                <div id="email-con" class="contact-input">
+                    <input type="email" id="email" class="form-input" name="email" />
                 </div>
 
                 <label for="message">Message</label>
-                <div class="contact-input">
-                    <textarea name="message" id="message" rows="4"></textarea>
+                <div id="message-con" class="contact-input">
+                    <textarea name="message" id="message" class="form-input" rows="4"></textarea>
                 </div>
             </div>
-            <input type="submit" value="Submit" class="contact-send" />
+            <input type="submit" value="Submit" id="submitForm" class="contact-send" />
         </div>
         <div class="copyright">
             <div class="copyright-container">
