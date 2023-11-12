@@ -7,7 +7,7 @@ const Index = () => {
   const [todoList, setTodoList] = React.useState<Array<string>>([]);
   
   const addTodo = (e?: string) => {
-    if(e && e === "Enter") {
+    if(e && e === "Enter" || !e) {
       if(todoList.length < 10) {
         setTodoList(prev => [...prev, todo]);
         setTodo("");
